@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07ECE6A3A7CA445397CE3C3556EA67C2 /* DreamNotes/Views/Onboarding/WelcomeSetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0ABD606916E4B88A8EDFE53D6B1FCF3 /* DreamNotes/Views/Onboarding/WelcomeSetupView.swift */; };
+		0E4DAE2B953B4864914BB1C3551FEEA3 /* DreamNotes/Views/Archive/DreamDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FA43B0A93984D89BA65B221A122CE1A /* DreamNotes/Views/Archive/DreamDetailView.swift */; };
+		32AE33EE5955461DB01DA6C78AD716CB /* DreamNotes/Views/Archive/ArchiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 069C6B76903C4038B76B369E690AC98F /* DreamNotes/Views/Archive/ArchiveView.swift */; };
+		68BBE774B35A49619536F384EA48EA9A /* DreamNotes/Views/Recording/RecordingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 068B93F799D745B1BDB9486BFAF208B8 /* DreamNotes/Views/Recording/RecordingView.swift */; };
+		76702BE82BB246759417A6F67DFB2242 /* DreamNotes/Models/DreamEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = E26F6036D08B4E02A11D73262B1C2F1D /* DreamNotes/Models/DreamEntry.swift */; };
+		813F5827C80F47E886BDCD9D6B71B194 /* DreamNotes/Services/AIDreamService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6098BA81FA224C8AA47728D78652499E /* DreamNotes/Services/AIDreamService.swift */; };
+		84A4F3BA84DA47EDBE77276A83B1E105 /* DreamNotes/DreamNotesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16F1B159082C400187C24D48A7127991 /* DreamNotes/DreamNotesApp.swift */; };
+		8CA379B0CE1B4D0F8783FDC036D205D9 /* DreamNotes/Views/ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7927AD2844C458193CD834E9CBDB3E0 /* DreamNotes/Views/ContentView.swift */; };
+		8CDE389B8B4948D6907824117190DA6D /* DreamNotes/ViewModels/AppViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89E1491D7FCF45CE9A0644BAC24BA0E0 /* DreamNotes/ViewModels/AppViewModel.swift */; };
+		8E3424A5EC3B4C9B8176F41F5B050E63 /* DreamNotes/Services/SpeechToTextService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E86EF4726E0449DA098A71ACA17A557 /* DreamNotes/Services/SpeechToTextService.swift */; };
+		97DAE57D30864663B5A52FB2A124ED5A /* DreamNotes/ViewModels/ArchiveViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FC49AF774440DBC2D19FCA87187B7 /* DreamNotes/ViewModels/ArchiveViewModel.swift */; };
+		997ECF04185C43839BC9E16F8442E80E /* DreamNotes/Models/UserSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = A034B3C2AB8840D89597DCB93B352350 /* DreamNotes/Models/UserSettings.swift */; };
+		A09B9D8714A3408A80B9B1C8D095CDF3 /* DreamNotes/Services/AudioRecorderService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79BFF5B3F4494F4FADA0A141663298EE /* DreamNotes/Services/AudioRecorderService.swift */; };
+		DAA2CAF564CA4D5CB0C184887935CF16 /* DreamNotes/Views/Home/HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6763389DF894D4D8968A71175BD8495 /* DreamNotes/Views/Home/HomeView.swift */; };
+		DEEE10FA63A347C48EB4FA711399D255 /* DreamNotes/Views/Settings/SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ABB4435BAE2448D8AA2383A7A92B789 /* DreamNotes/Views/Settings/SettingsView.swift */; };
+		EB1F8EBD7CC74DCBB4F0FEF195D03983 /* DreamNotes/ViewModels/RecordingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC4DA3BD386B41399EA6FE6B511DE2D8 /* DreamNotes/ViewModels/RecordingViewModel.swift */; };
+		EC9D9B8B34D0417AB2ED6CD4D0A02630 /* DreamNotes/Services/DreamStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D85C7DDF43B4FC9A7041C2AA8B40A93 /* DreamNotes/Services/DreamStorage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		068B93F799D745B1BDB9486BFAF208B8 /* DreamNotes/Views/Recording/RecordingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamNotes/Views/Recording/RecordingView.swift; sourceTree = "<group>"; };
+		069C6B76903C4038B76B369E690AC98F /* DreamNotes/Views/Archive/ArchiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamNotes/Views/Archive/ArchiveView.swift; sourceTree = "<group>"; };
+		16F1B159082C400187C24D48A7127991 /* DreamNotes/DreamNotesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamNotes/DreamNotesApp.swift; sourceTree = "<group>"; };
+		1E0FC49AF774440DBC2D19FCA87187B7 /* DreamNotes/ViewModels/ArchiveViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamNotes/ViewModels/ArchiveViewModel.swift; sourceTree = "<group>"; };
+		1FA43B0A93984D89BA65B221A122CE1A /* DreamNotes/Views/Archive/DreamDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamNotes/Views/Archive/DreamDetailView.swift; sourceTree = "<group>"; };
+		4E86EF4726E0449DA098A71ACA17A557 /* DreamNotes/Services/SpeechToTextService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamNotes/Services/SpeechToTextService.swift; sourceTree = "<group>"; };
+		5ABB4435BAE2448D8AA2383A7A92B789 /* DreamNotes/Views/Settings/SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamNotes/Views/Settings/SettingsView.swift; sourceTree = "<group>"; };
+		6098BA81FA224C8AA47728D78652499E /* DreamNotes/Services/AIDreamService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamNotes/Services/AIDreamService.swift; sourceTree = "<group>"; };
+		75DA47D02FBDF3B800A4B004 /* DreamNotes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamNotes.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		79BFF5B3F4494F4FADA0A141663298EE /* DreamNotes/Services/AudioRecorderService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamNotes/Services/AudioRecorderService.swift; sourceTree = "<group>"; };
+		89E1491D7FCF45CE9A0644BAC24BA0E0 /* DreamNotes/ViewModels/AppViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamNotes/ViewModels/AppViewModel.swift; sourceTree = "<group>"; };
+		9D85C7DDF43B4FC9A7041C2AA8B40A93 /* DreamNotes/Services/DreamStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamNotes/Services/DreamStorage.swift; sourceTree = "<group>"; };
+		A034B3C2AB8840D89597DCB93B352350 /* DreamNotes/Models/UserSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamNotes/Models/UserSettings.swift; sourceTree = "<group>"; };
+		B6763389DF894D4D8968A71175BD8495 /* DreamNotes/Views/Home/HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamNotes/Views/Home/HomeView.swift; sourceTree = "<group>"; };
+		D0ABD606916E4B88A8EDFE53D6B1FCF3 /* DreamNotes/Views/Onboarding/WelcomeSetupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamNotes/Views/Onboarding/WelcomeSetupView.swift; sourceTree = "<group>"; };
+		DC4DA3BD386B41399EA6FE6B511DE2D8 /* DreamNotes/ViewModels/RecordingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamNotes/ViewModels/RecordingViewModel.swift; sourceTree = "<group>"; };
+		E26F6036D08B4E02A11D73262B1C2F1D /* DreamNotes/Models/DreamEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamNotes/Models/DreamEntry.swift; sourceTree = "<group>"; };
+		E7927AD2844C458193CD834E9CBDB3E0 /* DreamNotes/Views/ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DreamNotes/Views/ContentView.swift; sourceTree = "<group>"; };
+		ECCDA3878F3949839B4FAF534C54026F /* DreamNotes/Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = DreamNotes/Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		930814796BD6418896B8A10B3DCD8782 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64E678A4B80440C586BA5BFBA725B8E0 = {
+			isa = PBXGroup;
+			children = (
+				ECCDA3878F3949839B4FAF534C54026F /* DreamNotes/Info.plist */,
+				16F1B159082C400187C24D48A7127991 /* DreamNotes/DreamNotesApp.swift */,
+				E7927AD2844C458193CD834E9CBDB3E0 /* DreamNotes/Views/ContentView.swift */,
+				E26F6036D08B4E02A11D73262B1C2F1D /* DreamNotes/Models/DreamEntry.swift */,
+				A034B3C2AB8840D89597DCB93B352350 /* DreamNotes/Models/UserSettings.swift */,
+				79BFF5B3F4494F4FADA0A141663298EE /* DreamNotes/Services/AudioRecorderService.swift */,
+				4E86EF4726E0449DA098A71ACA17A557 /* DreamNotes/Services/SpeechToTextService.swift */,
+				6098BA81FA224C8AA47728D78652499E /* DreamNotes/Services/AIDreamService.swift */,
+				9D85C7DDF43B4FC9A7041C2AA8B40A93 /* DreamNotes/Services/DreamStorage.swift */,
+				89E1491D7FCF45CE9A0644BAC24BA0E0 /* DreamNotes/ViewModels/AppViewModel.swift */,
+				DC4DA3BD386B41399EA6FE6B511DE2D8 /* DreamNotes/ViewModels/RecordingViewModel.swift */,
+				1E0FC49AF774440DBC2D19FCA87187B7 /* DreamNotes/ViewModels/ArchiveViewModel.swift */,
+				D0ABD606916E4B88A8EDFE53D6B1FCF3 /* DreamNotes/Views/Onboarding/WelcomeSetupView.swift */,
+				B6763389DF894D4D8968A71175BD8495 /* DreamNotes/Views/Home/HomeView.swift */,
+				068B93F799D745B1BDB9486BFAF208B8 /* DreamNotes/Views/Recording/RecordingView.swift */,
+				069C6B76903C4038B76B369E690AC98F /* DreamNotes/Views/Archive/ArchiveView.swift */,
+				1FA43B0A93984D89BA65B221A122CE1A /* DreamNotes/Views/Archive/DreamDetailView.swift */,
+				5ABB4435BAE2448D8AA2383A7A92B789 /* DreamNotes/Views/Settings/SettingsView.swift */,
+				75DA47D02FBDF3B800A4B004 /* DreamNotes.app */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E98566D379274121AA2411D49673FC0A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2232954742A9475D8E5C22C425F14E30 /* DreamNotes */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7189F9B526544CC69E70154FA326B585 /* Build configuration list for PBXNativeTarget "DreamNotes" */;
+			buildPhases = (
+				CC116A080D674E41B6CDC9D73AC4072C /* Sources */,
+				930814796BD6418896B8A10B3DCD8782 /* Frameworks */,
+				E98566D379274121AA2411D49673FC0A /* Headers */,
+				909D4DF66C224078A1436EC4E2FFD003 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DreamNotes;
+			productName = DreamNotes;
+			productReference = 75DA47D02FBDF3B800A4B004 /* DreamNotes.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBA635374F064C8693C2F84D9366054D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 27E13FFA302B4B63ABA91E54CC89EC70 /* Build configuration list for PBXProject "DreamNotes" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = "zh-Hans";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				"zh-Hans",
+				Base,
+			);
+			mainGroup = 64E678A4B80440C586BA5BFBA725B8E0;
+			productRefGroup = 64E678A4B80440C586BA5BFBA725B8E0;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2232954742A9475D8E5C22C425F14E30 /* DreamNotes */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		909D4DF66C224078A1436EC4E2FFD003 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CC116A080D674E41B6CDC9D73AC4072C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A4F3BA84DA47EDBE77276A83B1E105 /* DreamNotes/DreamNotesApp.swift in Sources */,
+				8CA379B0CE1B4D0F8783FDC036D205D9 /* DreamNotes/Views/ContentView.swift in Sources */,
+				76702BE82BB246759417A6F67DFB2242 /* DreamNotes/Models/DreamEntry.swift in Sources */,
+				997ECF04185C43839BC9E16F8442E80E /* DreamNotes/Models/UserSettings.swift in Sources */,
+				A09B9D8714A3408A80B9B1C8D095CDF3 /* DreamNotes/Services/AudioRecorderService.swift in Sources */,
+				8E3424A5EC3B4C9B8176F41F5B050E63 /* DreamNotes/Services/SpeechToTextService.swift in Sources */,
+				813F5827C80F47E886BDCD9D6B71B194 /* DreamNotes/Services/AIDreamService.swift in Sources */,
+				EC9D9B8B34D0417AB2ED6CD4D0A02630 /* DreamNotes/Services/DreamStorage.swift in Sources */,
+				8CDE389B8B4948D6907824117190DA6D /* DreamNotes/ViewModels/AppViewModel.swift in Sources */,
+				EB1F8EBD7CC74DCBB4F0FEF195D03983 /* DreamNotes/ViewModels/RecordingViewModel.swift in Sources */,
+				97DAE57D30864663B5A52FB2A124ED5A /* DreamNotes/ViewModels/ArchiveViewModel.swift in Sources */,
+				07ECE6A3A7CA445397CE3C3556EA67C2 /* DreamNotes/Views/Onboarding/WelcomeSetupView.swift in Sources */,
+				DAA2CAF564CA4D5CB0C184887935CF16 /* DreamNotes/Views/Home/HomeView.swift in Sources */,
+				68BBE774B35A49619536F384EA48EA9A /* DreamNotes/Views/Recording/RecordingView.swift in Sources */,
+				32AE33EE5955461DB01DA6C78AD716CB /* DreamNotes/Views/Archive/ArchiveView.swift in Sources */,
+				0E4DAE2B953B4864914BB1C3551FEEA3 /* DreamNotes/Views/Archive/DreamDetailView.swift in Sources */,
+				DEEE10FA63A347C48EB4FA711399D255 /* DreamNotes/Views/Settings/SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		149F0CAF6AD646F9AE7100382BA3F3AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 593Y7224ZG;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				INFOPLIST_FILE = DreamNotes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LAUNCH_STORYBOARD_NAME = "";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nousresearch.DreamNotes;
+				PRODUCT_NAME = DreamNotes;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		3149F562F1F248A5BBF578FB0CE07322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "$(inherited)";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "";
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		601944BF481D474FB1B7C5D6CAE67783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A19E1DD99FDA46E683B940FC68B152AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				APPLICATION_EXTENSION_API_ONLY = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 593Y7224ZG;
+				ENABLE_NS_ASSERTIONS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DreamNotes/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LAUNCH_STORYBOARD_NAME = "";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nousresearch.DreamNotes;
+				PRODUCT_NAME = DreamNotes;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		27E13FFA302B4B63ABA91E54CC89EC70 /* Build configuration list for PBXProject "DreamNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				601944BF481D474FB1B7C5D6CAE67783 /* Debug */,
+				3149F562F1F248A5BBF578FB0CE07322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7189F9B526544CC69E70154FA326B585 /* Build configuration list for PBXNativeTarget "DreamNotes" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A19E1DD99FDA46E683B940FC68B152AA /* Debug */,
+				149F0CAF6AD646F9AE7100382BA3F3AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBA635374F064C8693C2F84D9366054D /* Project object */;
+}
